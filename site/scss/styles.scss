@@ -1,0 +1,52 @@
+.author {
+    color: silver;
+    size: 12px;
+}
+
+.date {
+    size: 10px;
+}
+
+.author-image {
+    border-color: black;
+}
+
+.title {
+    font-weight: bold;
+    size: 24px;
+}
+
+.sub-title {
+    size: 18px;
+}
+
+.author,
+.title,
+.sub-title,
+.date {
+    font-family: Economica, sans-serif;
+}
+
+.header {
+    font-family: Merriweather, sans-serif;
+    size: 16px;
+}
+
+.paragraph {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+hr {
+    height: 2px;
+    color: burlywood;
+}
+
+.article-title {
+    color: black;
+}
+
+.article-image {
+    text-align: center;
+    border-color: burlywood;
+    border-width: thin;
+}
