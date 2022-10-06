@@ -16,6 +16,11 @@ jobs:
       run: |
         npm install
         npm run build
+    - name: Copy index file to dist folder
+      uses: canastro/copy-file-action@master
+      with:
+        source: "public/index.html"
+        target: "public/dist/index.html"
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
