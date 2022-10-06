@@ -17,6 +17,6 @@ jobs:
         npm run install
         npm run build
     - name: Deploy 🚀
-      uses: italktocomputers.github.io/github-pages-deploy-action@v4
+      uses: italktocomputers/italktocomputers.github.io/@v1
       with:
         folder: public/dist
